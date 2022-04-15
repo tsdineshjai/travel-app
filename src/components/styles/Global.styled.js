@@ -25,8 +25,9 @@ export const Container = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 	width: 550px;
-	height: 900px;
+	height: 704px;
 	margin: 0 auto;
 	padding: 0.5rem 1rem;
-	background-color: #1a1b21;
+	background-color: #fffff;
+	border-radius: 8.95px;
 `;

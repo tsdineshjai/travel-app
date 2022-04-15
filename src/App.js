@@ -1,20 +1,14 @@
 import React from "react";
-import styled from "styled-components";
-import Info from "./components/Info";
-import About from "./components/About";
-import Interests from "./components/Interests";
-import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
-import GlobalStyle, { Container, Sys } from "./components/styles/Global.styled";
+import GlobalStyle, { Container } from "./components/styles/Global.styled";
 
 function App() {
 	return (
 		<Container>
-			<GlobalStyle />
-			<Info />
-			<About />
-			<Interests />
-			<Footer />
+			<Header />
+			<Main />
 		</Container>
 	);
 }
